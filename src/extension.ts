@@ -93,7 +93,7 @@ export function activate(context: vscode.ExtensionContext) {
   statusBarItem.text = `Branch: ${alias}`;
 
   const disposable = vscode.commands.registerCommand(
-    'branchnamer.refresh',
+    'branchNamer.refresh',
     () => {
       try {
         const newBranch = execSync('git rev-parse --abbrev-ref HEAD', {

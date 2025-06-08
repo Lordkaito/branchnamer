@@ -10,7 +10,7 @@
     "url": "https://github.com/Lordkaito/branchnamer"
   },
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.96.2"
   },
   "categories": [
     "Other"
@@ -23,18 +23,18 @@
   "contributes": {
     "commands": [
       {
-        "command": "branchnamer.refresh",
-        "title": "Branchnamer: refresh"
+        "command": "branchNamer.refresh",
+        "title": "BranchNamer: refresh"
       }
     ],
     "configuration": {
       "type": "object",
-      "title": "branchnamer Configuration",
+      "title": "branchNamer Configuration",
       "properties": {
-        "branchnamer.defaultFileName": {
+        "branchNamer.defaultFileName": {
           "type": "string",
           "default": true,
-          "description": "Set the default configuration file name for branchnamer."
+          "description": "Set the default configuration file name for branchNamer."
         }
       }
     }
